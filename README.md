@@ -67,7 +67,7 @@ $ for m in search-mans; do mv $m.sh $m; mkdir $HOME/bin; mv $m $HOME/bin; export
 Note: After running this command you should be able to run `search-mans (command)` from anywhere, without the leading `./`, e.g.:
 
 ```
-search-mans git > all-the-git-man-pages.txt
+$ search-mans git > all-the-git-man-pages.txt
 ```
 
 #### Find out how many {sub-}pages a command has by counting the man files:
