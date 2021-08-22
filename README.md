@@ -8,7 +8,7 @@
 
 I pretty much created this as a demo for repo usage in a course I'm taking https://nucamp.co but it's kinda fun and appears to work OK
 
-(you can also just type `man (command)` and hit <TAB> twice to get a list, so this is not super useful, but still was fun to write up...)
+(you can also just type `man (command)` and hit \<TAB\> twice to get a list, so this is not super useful, but still was fun to write up...)
 
 The script _does_ make it easier to save a list of mans, or count them if you need to ... (see below)
 
