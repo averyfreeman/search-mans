@@ -4,7 +4,7 @@
 
 ---
 
-I wrote this while I was using `msys2` because there wasn't a proper `apropos`
+I wrote this while I was using `msys2` because there wasn't a proper `apropos`.  Not sure it has a lot of utility outside of that context.
 
 #### Usage:
 
@@ -43,7 +43,7 @@ git-clean
 git-clone
 git-column
 . . .
-wow, such gits
+# wow, such gits
 ```
 
 #### Save output to file:
@@ -61,11 +61,11 @@ $ for m in search-mans; do mv $m.sh $m; mkdir $HOME/bin; mv $m $HOME/bin; export
 Note: After running this command you should be able to run `search-mans (command)` from anywhere, without the leading `./`, e.g.:
 
 ```
-$ search-mans git > all-the-git-man-pages.txt
+$ search-mans git > man-instances-of-git.list; cat man-instances-of-git.list | more  # etc.
 ```
 
 #### Find out how many {sub-}pages a command has by counting the man files:
 
 ```
-$ search-mans git | wc -l  // returns: 185
+$ search-mans git | wc -l  # returns: 185
 ```
