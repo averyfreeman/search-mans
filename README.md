@@ -4,13 +4,7 @@
 
 ---
 
-### This is just a cheap a oneliner that searches for and returns a list of man pages on your computer in the two most common locations.
-
-I pretty much created this as a demo for repo usage in a course I'm taking https://nucamp.co but it's kinda fun and appears to work OK
-
-(you can also just type `man (command)` and hit \<TAB\> twice to get a list, so this is not super useful, but still was fun to write up...)
-
-The script _does_ make it easier to save a list of mans, or count them if you need to ... (see below)
+I wrote this while I was using `msys2` because there wasn't a proper `apropos`
 
 #### Usage:
 
@@ -49,7 +43,7 @@ git-clean
 git-clone
 git-column
 . . .
-wow, so much gits
+wow, such gits
 ```
 
 #### Save output to file:
